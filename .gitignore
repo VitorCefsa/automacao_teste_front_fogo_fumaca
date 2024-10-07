@@ -1,0 +1,43 @@
+# Logs
+*.log
+
+# Ignore node_modules - dependências do projeto
+node_modules/
+
+# Cache do Playwright
+playwright-report/
+playwright/.cache/
+
+# Arquivos de gravação de vídeo
+*.webm
+
+# Arquivos de captura de tela
+*.png
+*.jpeg
+*.jpg
+
+# Arquivos de rastreamento
+*.trace
+
+# Playwright trace e artefatos
+test-results/
+trace.zip
+trace/
+
+# Arquivos de configuração específicos da máquina
+*.local
+
+# Ignore ambientes virtuais, se estiver usando
+.env/
+.venv/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de lock (package managers)
+package-lock.json
+yarn.lock
+
+# Playwright recordings
+videos/
